@@ -1,5 +1,5 @@
 def recur_factorial(n):  
-   if n == 0:  
+   if n == 1:  #as we are taking a factorial it should be 1 not 0
        return n  
    else:  
        return n*recur_factorial(n-1)  
